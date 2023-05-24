@@ -1,0 +1,126 @@
+nav {
+  background-color: #0071dc;
+  height: 5.5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5%;
+  font-family: bogle;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 100px;
+  padding: 0.5rem 1rem;
+}
+
+.dep-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 100px;
+  padding: 0.75rem 1.3rem;
+  margin-right: 8rem;
+}
+.dep-container:hover,
+.logo-container:hover,
+.account-container:hover,
+.cart-container:hover,
+.reorder-container:hover {
+  background-color: #004f9a;
+  cursor: pointer;
+}
+.text {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  /* width: 35rem; */
+  border-radius: 100px;
+  position: relative;
+}
+.search-input-field {
+  border: none;
+  /* outline: none; */
+  width: 100%;
+  height: 2.5rem !important;
+  padding: 0 1rem;
+  font-size: 1rem;
+  height: 2.5rem;
+  width: 37.5rem;
+  border-radius: 100px;
+}
+.search-input-field:focus {
+  border-radius: 0;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: bogle-regular;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: bogle-regular;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-family: bogle-regular;
+}
+.search-button {
+  background-color: #ffc220;
+  position: absolute;
+  right: 0.25rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reorder-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 100px;
+  padding: 0.3rem 1.3rem;
+}
+
+.account-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.3rem 1.3rem;
+  border-radius: 100px;
+}
+
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 1rem;
+  padding: 0.3rem 1.3rem;
+  border-radius: 100px;
+}
